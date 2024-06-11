@@ -97,6 +97,7 @@ extension iOSViewVersion<FormWithGroupedStyleType, UITableView> {
 extension iOSViewVersion<FormWithGroupedStyleType, UICollectionView> {
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
+  public static let v18 = Self(for: .v18)
 }
 
 extension tvOSViewVersion<FormWithGroupedStyleType, UITableView> {
@@ -108,6 +109,7 @@ extension tvOSViewVersion<FormWithGroupedStyleType, UITableView> {
     public static let v15 = Self.unavailable()
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
+  public static let v18 = Self(for: .v18)
 }
 
 extension visionOSViewVersion<FormWithGroupedStyleType, UICollectionView> {

@@ -71,6 +71,7 @@ extension iOSViewVersion<VideoPlayerType, AVPlayerViewController> {
     public static let v15 = Self(for: .v15)
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
+  public static let v18 = Self(for: .v18)
 }
 
 extension tvOSViewVersion<VideoPlayerType, AVPlayerViewController> {
@@ -80,6 +81,7 @@ extension tvOSViewVersion<VideoPlayerType, AVPlayerViewController> {
     public static let v15 = Self(for: .v15)
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
+  public static let v18 = Self(for: .v18)
 }
 
 extension visionOSViewVersion<VideoPlayerType, AVPlayerViewController> {

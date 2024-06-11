@@ -85,6 +85,7 @@ extension iOSViewVersion<ListWithInsetStyleType, UITableView> {
 extension iOSViewVersion<ListWithInsetStyleType, UICollectionView> {
     public static let v16 = Self(for: .v16)
     public static let v17 = Self(for: .v17)
+  public static let v18 = Self(for: .v18)
 }
 
 extension visionOSViewVersion<ListWithInsetStyleType, UICollectionView> {
